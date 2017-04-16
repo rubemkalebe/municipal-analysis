@@ -12,6 +12,6 @@ class ExtractData(object):
     '''
 
     @staticmethod
-    def read_csv(url): 
-        data = pandas.read_csv(url, sep = ',')
+    def read_csv(url, sep = ','): 
+        data = pandas.read_csv(url, sep = sep)
         return data 
